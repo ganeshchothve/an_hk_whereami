@@ -42,6 +42,7 @@ end
 group :test do
   gem 'rspec_junit_formatter', "~> 0.4.1", :group => :test
   gem 'webmock', '3.8.3'
+  gem 'pry'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

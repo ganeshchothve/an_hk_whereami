@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="7" skipped="0" failures="0" errors="0" time="0.049122" timestamp="2023-08-20T13:31:01+05:30" hostname="ganesh-Latitude-3420">
+<properties>
+<property name="seed" value="294"/>
+</properties>
+<testcase classname="spec.requests.whereami_controller_spec" name="WhereamiController GET /whereami should return &quot;ip&quot;, &quot;country&quot; and &quot;language&quot; fields" file="./spec/requests/whereami_controller_spec.rb" time="0.015370"></testcase>
+<testcase classname="spec.requests.whereami_controller_spec" name="WhereamiController GET /whereami when remote IP is passed in the request returns this IP in response" file="./spec/requests/whereami_controller_spec.rb" time="0.001944"></testcase>
+<testcase classname="spec.requests.whereami_controller_spec" name="WhereamiController GET /whereami when country is found by IP returns correspondent country in response" file="./spec/requests/whereami_controller_spec.rb" time="0.006752"></testcase>
+<testcase classname="spec.requests.whereami_controller_spec" name="WhereamiController GET /whereami when ACCEPT_LANGUAGE header is sent from client should return the most often used locale in response" file="./spec/requests/whereami_controller_spec.rb" time="0.011528"></testcase>
+<testcase classname="spec.requests.whereami_controller_spec" name="WhereamiController GET /whereami when ACCEPT_LANGUAGE header is not sent from client should return nil for &quot;language&quot; field" file="./spec/requests/whereami_controller_spec.rb" time="0.006129"></testcase>
+<testcase classname="spec.requests.whereami_controller_spec" name="WhereamiController GET /whereami when remote IP is not passed in the request returns &quot;nil&quot; for &quot;ip&quot; and &quot;country&quot; fields in response" file="./spec/requests/whereami_controller_spec.rb" time="0.001280"></testcase>
+<testcase classname="spec.requests.whereami_controller_spec" name="WhereamiController GET /whereami when country is not found by IP (404 response) returns &quot;nil&quot; for country field" file="./spec/requests/whereami_controller_spec.rb" time="0.001407"></testcase>
+</testsuite>
